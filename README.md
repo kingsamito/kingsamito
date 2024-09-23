@@ -39,6 +39,7 @@ I'm passionate about building intuitive, responsive web and mobile applications.
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=kingsamito&theme=redical)
 
 
+
 ## ⌨️ Coding Activity
 ![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=kingsamito)
 
