@@ -35,4 +35,13 @@ I'm passionate about building intuitive, responsive web and mobile applications.
 ## 📈 GitHub Stats
 ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=kingsamito&show_icons=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kingsamito&layout=compact&theme=radical)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kingsamito&theme=radical)
+![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?kingsamito=yourusername&theme=redical)
+
+
+## ⌨️ Coding Activity
+![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=kingsamito)
+
+
+
 
