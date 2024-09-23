@@ -41,7 +41,8 @@ I'm passionate about building intuitive, responsive web and mobile applications.
 
 
 ## ⌨️ Coding Activity
-![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=kingsamito)
+![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=kingsamito&theme=radical)
+
 
 
 
