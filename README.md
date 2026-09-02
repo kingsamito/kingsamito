@@ -33,16 +33,19 @@ I'm passionate about building intuitive, responsive web and mobile applications.
 
 
 ## 📈 GitHub Stats
-![GitHub Stats](https://ghstats.dev/api/card?username=kingsamito&theme=radical)
-![Top Languages](https://ghstats.dev/api/card?username=kingsamito&theme=radical&layout=compact)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kingsamito&theme=radical)
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kingsamito&theme=github)
 
+![GitHub Stats](./profile/stats.svg)
 
+![Top Languages](./profile/top-langs.svg)
 
+![GitHub Streak](./profile/streak.svg)
+
+![GitHub Activity Graph](./profile/activity-graph.svg)
 
 ## ⌨️ Coding Activity
-![Wakatime Stats](https://github-readme-stats-fast.vercel.app/api/wakatime?username=kingsamito&theme=radical)
+
+![WakaTime Stats](./profile/wakatime.svg)
+
 
 
 
