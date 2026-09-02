@@ -9,64 +9,41 @@ permissions:
   contents: write
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v6
 
-      # GitHub Stats
       - name: Generate GitHub Stats
-        uses: stats-organization/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
           options: username=kingsamito&show_icons=true&theme=radical&include_all_commits=true
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Top Languages
       - name: Generate Top Languages
-        uses: stats-organization/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
           options: username=kingsamito&layout=compact&theme=radical
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # GitHub Streak
-      - name: Generate GitHub Streak
-        uses: DenverCoder1/github-readme-streak-stats@main
-        with:
-          options: user=kingsamito&theme=radical&hide_border=true
-          path: profile/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      # Activity Graph
-      - name: Generate Activity Graph
-        uses: maurodesouza/github-readme-activity-graph-action@v1
-        with:
-          username: kingsamito
-          options: theme=react-dark&hide_border=true&area=true&radius=10
-          output_path: profile/activity-graph.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      # WakaTime
-      - name: Generate WakaTime Stats
-        uses: stats-organization/github-readme-stats-action@v1
+      - name: Generate WakaTime
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: wakatime
-          options: username=kingsamito&theme=radical&layout=compact
+          options: username=kingsamito&layout=compact&theme=radical
           path: profile/wakatime.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Save generated SVG files
-      - name: Commit generated stats
+      - name: Commit Stats
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add profile/*.svg
-
           git diff --cached --quiet || git commit -m "Update profile stats"
           git push
