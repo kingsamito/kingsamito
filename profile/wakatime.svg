@@ -367,7 +367,7 @@
     <g transform="translate(25, 25)">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript - 802 hrs 7 mins
+        TypeScript - 802 hrs 9 mins
       </text>
     </g>
   
@@ -437,7 +437,7 @@
     <g transform="translate(25, 150)">
       <circle cx="5" cy="6" r="5" fill="#0060ac" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        XML - 3 hrs 4 mins
+        XML - 3 hrs 5 mins
       </text>
     </g>
   
@@ -514,7 +514,7 @@
     <g transform="translate(230, 275)">
       <circle cx="5" cy="6" r="5" fill="#A97BFF" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Kotlin - 8 mins
+        Kotlin - 9 mins
       </text>
     </g>
   
